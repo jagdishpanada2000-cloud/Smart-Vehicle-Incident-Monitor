@@ -1,0 +1,12 @@
+project_id = "sentinel"
+
+# Handlers explicitly validate the user JWT using auth.getUser(), supporting
+# projects using either legacy or asymmetric signing keys.
+[functions.process-scan]
+verify_jwt = false
+[functions.ai-analysis]
+verify_jwt = false
+[functions.health-check]
+verify_jwt = false
+[functions.evidence-url]
+verify_jwt = false

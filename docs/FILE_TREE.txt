@@ -1,0 +1,73 @@
+sentinel/
+|-- docs
+|   |-- FILE_TREE.txt
+|   |-- TESTING.md
+|   `-- VIVA.md
+|-- public
+|   `-- favicon.svg
+|-- src
+|   |-- components
+|   |   |-- IncidentDetail.tsx
+|   |   `-- ui.tsx
+|   |-- hooks
+|   |   |-- useAuth.tsx
+|   |   `-- useOverview.ts
+|   |-- layouts
+|   |   `-- Shell.tsx
+|   |-- lib
+|   |   `-- supabase.ts
+|   |-- pages
+|   |   |-- Dashboard.tsx
+|   |   |-- Incidents.tsx
+|   |   |-- Public.tsx
+|   |   |-- Scanner.tsx
+|   |   |-- System.tsx
+|   |   `-- Vehicles.tsx
+|   |-- services
+|   |   `-- ocr.ts
+|   |-- types
+|   |   `-- index.ts
+|   |-- App.tsx
+|   |-- main.tsx
+|   `-- styles.css
+|-- supabase
+|   |-- functions
+|   |   |-- _shared
+|   |   |   |-- cloudinary.ts
+|   |   |   |-- domain.ts
+|   |   |   |-- gemini.ts
+|   |   |   `-- http.ts
+|   |   |-- ai-analysis
+|   |   |   `-- index.ts
+|   |   |-- evidence-url
+|   |   |   `-- index.ts
+|   |   |-- health-check
+|   |   |   `-- index.ts
+|   |   `-- process-scan
+|   |       `-- index.ts
+|   |-- migrations
+|   |   `-- 202609210001_sentinel.sql
+|   |-- authorize-operator.sql
+|   |-- config.toml
+|   |-- seed.sql
+|   `-- SETUP.sql
+|-- tests
+|   |-- browser
+|   |   |-- app.spec.ts
+|   |   `-- ocr.spec.ts
+|   |-- database.test.ts
+|   |-- domain.test.ts
+|   `-- edge.test.ts
+|-- .env.example
+|-- .env.functions.example
+|-- .gitignore
+|-- index.html
+|-- package-lock.json
+|-- package.json
+|-- playwright.config.ts
+|-- README.md
+|-- START_HERE.md
+|-- tsconfig.json
+|-- vercel.json
+|-- vite.config.ts
+`-- vitest.config.ts
