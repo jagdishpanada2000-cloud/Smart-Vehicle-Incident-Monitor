@@ -1,0 +1,12 @@
+node_modules/
+.tools/
+backend/target/
+backend/application-local.properties
+dist/
+.env
+.env.*
+!.env.example
+supabase/.temp/
+*.tsbuildinfo
+test-results/
+scratch/
